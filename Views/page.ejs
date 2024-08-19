@@ -1,0 +1,471 @@
+<html>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-top: 5px;
+        }
+        .pqr{
+        float: left;
+        width: 50%;
+}
+        .xyz:after{
+        content: "";
+        display: table;
+        clear: both;
+}
+#imgsize{
+    height: 2cm;
+    width: 2cm;
+    border:0px;
+    margin-left: 1.5cm;
+}
+#size{
+  color: forestgreen;
+  font-size: 40px;
+  margin-left:3cm;
+}
+.topnav {
+  overflow: hidden;
+  background-color: forestgreen;
+  margin-top: 1.5cm;
+  margin-left: 14cm;
+  margin-right: 1.4cm;
+}
+.topnav a {
+  float: left;
+  color: floralwhite;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+  font-size: 18px;
+
+  display: block;
+  text-decoration: none;
+}
+.topnav a:hover {
+  background-color: floralwhite;
+  color: forestgreen
+}
+
+.navbar {
+  overflow: hidden;
+  background-color:forestgreen;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: floralwhite;
+  text-align: center;
+  font-size: 18px;
+  padding: 12px 14px;
+  text-decoration: none;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  font-size: 18px;  
+  border: none;
+  outline: none;
+  color:floralwhite;
+  padding: 12px 14px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color:orange;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: floralwhite;
+  min-width: 160px;
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: forestgreen;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: orange;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.btn {
+  background-color: forestgreen;
+  color: floralwhite;
+  font-size: 16px;
+  padding: 16px;
+  padding-left: 5cm;
+  padding-right: 5cm;
+  border: none;
+  cursor: pointer;
+  margin-top: 1cm;
+  border-radius: 10px;
+}
+
+.btn:hover, .btn:focus {
+  background-color: orange;
+}
+
+#myInput {
+  box-sizing: border-box;
+  background-position: 14px 12px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 16px;
+  padding-left: 5cm;
+  padding-right: 5cm;
+  border: none;
+  border-bottom: 1px solid gainsboro;
+  border-radius: 15px;
+}
+
+#myInput:focus {outline: 3px solid gainsboro}
+
+.drop {
+  position: relative;
+  display: inline-block;
+  margin-left: 10cm;
+}
+
+.drop-con {
+  display: none;
+  position: absolute;
+  background-color: floralwhite;
+  min-width: 230px;
+  border: 1px solid gainsboro;
+  z-index: 1;
+  border-radius: 10px;
+  overflow-y: scroll;
+  height: 10cm;
+}
+
+.drop-con a {
+  color: forestgreen;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.drop a:hover {background-color: gainsboro;}
+
+.show {display: block;}
+
+
+h1{
+  color: orange;
+}
+.content {
+  display: flex;
+  flex-wrap: no-wrap;
+  overflow-x: auto;
+  text-align: center;
+  font-size: 20px;
+  background-color: floralwhite;
+  white-space: nowrap;
+}
+.content::-webkit-scrollbar {
+    display: none;
+}
+img {
+  width: 6cm;
+  height: 4cm;
+  border-radius: 25px;
+  border: 2px solid forestgreen;
+  margin-left: 1cm;
+  margin-right: 1cm;
+  
+}
+
+</style>
+        <body>
+              <div class="xyz">
+                <div class="pqr">
+                <h1 id="size"><img src="https://freelogocreator.com/user_design/logos/2022/11/24/84570-medium.png" id="imgsize"><br>careOgiene</h1>
+                </div>
+                <div class="pqr">
+                  <div class="topnav">
+                    <a href="logout">Logout</a>
+                    </div>
+                    </div>
+              </div>
+
+            <div class="navbar">
+
+                
+                    <div class="dropdown">
+                      <button class="dropbtn">Food for healthy body</button>
+                      <div class="dropdown-content">
+                      <a href="brain">brain</a>
+                      <a href="heart">heart</a>
+                      <a href="lungs">lungs</a>
+                      <a href="liver">liver</a>
+                      <a href="stomach">stomach</a>
+                      <a href="intestines">intestines</a>
+                      <a href="kidneys">kidneys</a>
+                      <a href="eyes">eyes</a>
+                      <a href="imm">immune system</a>
+                      <a href="ner">nervous system</a>
+                      <a href="mus">muscle</a>
+                      <a href="ske">bones</a>
+                      </div>
+                      </div>
+
+                      <div class="dropdown">
+                        <button class="dropbtn">Height and weight</button>
+                        <div class="dropdown-content">
+                        <a href="heightf">height increase food</a>
+                        <a href="lossf">weight loss food</a>
+                        <a href="gainf">weight gain food</a>
+                        </div>
+                        </div>
+      
+                        <div class="dropdown">
+                          <button class="dropbtn">Health tips</button>
+                          <div class="dropdown-content">
+                          <a href="healthtips">healthy eating tips</a>
+                          <a href="exercise">exercise for healthy body</a>
+                          </div>
+                          </div>
+      
+
+                    <div class="dropdown">
+                      <button class="dropbtn">Hair care</button>
+                      <div class="dropdown-content">
+                      <a href="dandruff">dandruff</a>
+                      <a href="hairfall">hair fall</a>
+                      <a href="dryhair">dry hair</a>
+                      <a href="oilyscalp">oily scalp</a>
+                      <a href="splitends">split ends</a>
+                      <a href="frizzy">frizzy hair</a>
+                      <a href="greying">premature greying</a>
+                      <a href="hffood">food for healthy hair</a>
+                      </div>
+                      </div>
+
+                      <div class="dropdown">
+                        <button class="dropbtn">Face care</button>
+                        <div class="dropdown-content">
+                        <a href="oilyskin">oily skin</a>
+                        <a href="dryskin">dry skin</a>
+                        <a href="combination">combination skin</a>
+                        <a href="sensitive">sensitive skin</a>
+                        <a href="circles">dark circles</a>
+                        <a href="spots">dark spots</a>
+                        <a href="acne">acne</a>
+                        <a href="pores">large pores</a>
+                        <a href="wrinkles">wrinkles</a>
+                        <a href="antiage">anti-ageing</a>
+                        <a href="lips">lip care</a>
+                        </div>
+                        </div>
+
+                        <div class="dropdown">
+                          <button class="dropbtn">Body care</button>
+                          <div class="dropdown-content">
+                          <a href="underarms">underarm care</a>
+                          <a href="hands">hand care</a>
+                          <a href="foot">foot care</a>
+                          <a href="bodytips">body care tips</a>
+                          </div>
+                          </div>
+
+                        <div class="dropdown">
+                          <button class="dropbtn">Female health</button>
+                          <div class="dropdown-content">
+                          <a href="fhtips">food during periods</a>
+                          </div>
+                          </div>
+
+                            <div class="dropdown">
+                              <button class="dropbtn">Routine</button>
+                              <div class="dropdown-content">
+                              <a href="hair">hair care</a>
+                              <a href="mornskin">morning skin care</a>
+                              <a href="nightskin">eveing skin care</a>
+                              <a href="winter">winter skin care</a>
+                              </div>
+                            </div>
+
+                            <div class="dropdown">
+                              <button class="dropbtn">Different countries skin remedies</button>
+                              <div class="dropdown-content">
+                              <a href="cou">skin care remedies</a>
+                              </div>
+                            </div>
+  </div>
+
+  <div class="drop">
+    <button onclick="myFunction()" class="btn">What are you looking for?</button>
+    <div id="myDrop" class="drop-con">
+      <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+      
+              
+              <a href="heart">heart</a>
+              <a href="lungs">lungs</a>
+              <a href="liver">liver</a>
+              <a href="stomach">stomach</a>
+              <a href="intestines">intestines</a>
+              <a href="kidneys">kidneys</a>
+              <a href="eyes">eyes</a>
+              <a href="imm">immune</a>
+              <a href="ner">nervous</a>
+              <a href="mus">muscle</a>
+              <a href="ske">bones</a>
+              <a href="heightf">height increase food</a>
+                  <a href="lossf">weight loss food</a>    
+                  <a href="gainf">weight gain food</a>
+                  <a href="healthtips">healthy eating tips</a>
+                  <a href="exercise">exercise for healthy body</a>
+                  <a href="brain">brain</a>
+                  <a href="dandruff">dandruff</a>
+                  <a href="hairfall">hair fall</a>
+                  <a href="dryhair">dry hair</a>
+                  <a href="oilyscalp">oily scalp</a>
+                  <a href="splitends">split ends</a>
+                  <a href="frizzy">frizzy hair</a>
+                  <a href="greying">premature greying</a>
+                  <a href="hffood">food for healthy hair</a>
+                  <a href="oilyskin">oily skin</a>
+                  <a href="dryskin">dry skin</a>
+                  <a href="combination">combination skin</a>
+                  <a href="sensitive">sensitive skin</a>
+                  <a href="circles">dark circles</a>
+                  <a href="spots">dark spots</a>
+                  <a href="acne">acne</a>
+                  <a href="pores">large pores</a>
+                  <a href="wrinkles">wrinkles</a>
+                  <a href="antiage">anti-ageing</a>
+                  <a href="lips">lip care</a>
+                  <a href="underarms">underarm care</a>
+                  <a href="hands">hand care</a>
+                  <a href="foot">foot care</a>
+                  <a href="bodytips">body care tips</a>
+                  <a href="fhtips">food during periods</a>
+                          <a href="hair">hair care</a>
+                          <a href="mornskin">morning skin care</a>
+                          <a href="nightskin">eveing skin care</a>
+                          <a href="winter">winter skin care</a>
+                          <a href="cou">different countries skin care remedies</a>
+                          
+    </div>
+  </div>
+
+  <script>
+    function myFunction() {
+  document.getElementById("myDrop").classList.toggle("show");
+}
+
+function filterFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("myDrop");
+  a = div.getElementsByTagName("a");
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+  </script>
+
+
+            
+
+            <h1>Food for healthy body</h1>
+            <div class="content">
+            <p><a href="brain"> <img src="https://img.freepik.com/free-vector/human-internal-organ-with-brain_1308-108784.jpg"></a><br>brain</p>
+            <p><a href="heart"> <img src="https://img.freepik.com/free-vector/human-internal-organ-with-heart_1308-101450.jpg"></a><br>heart</p>
+            <p><a href="lungs"> <img src="https://img.freepik.com/free-vector/human-internal-organ-with-lungs_1308-102147.jpg"></a><br>lungs</p>
+            <p><a href="liver"> <img src="https://img.freepik.com/free-vector/human-internal-organ-with-liver_1308-110401.jpg"></a><br>liver</p>
+            <p><a href="stomach"> <img src="https://img.freepik.com/free-vector/human-internal-organ-with-stomach_1308-103599.jpg"></a><br>stomach</p>
+            <p><a href="intestines"> <img src="https://img.freepik.com/free-vector/human-internal-organ-with-intestine_1308-110056.jpg"></a><br>intestines</p>
+            <p><a href="kidneys"> <img src="https://img.freepik.com/free-vector/human-internal-organ-with-kidney_1308-108867.jpg"></a><br>kidneys</p>
+            <p><a href="eyes"> <img src="https://img.freepik.com/free-vector/vector-blue-human-eye-macro-white_1284-41929.jpg "></a><br>eyes</p>
+            <p><a href="imm"> <img src=" https://img.freepik.com/premium-photo/concept-fight-defensive-immunity-against-virus-3d-rendering_207634-225.jpg"></a><br>immune</p>
+            <p><a href="ner"> <img src="https://img.freepik.com/premium-photo/active-nerve-cells_151689-44.jpg"></a><br>nervous</p>
+            <p><a href="mus"> <img src="https://img.freepik.com/free-vector/human-muscle-anatomy-structure_1308-108142.jpg"></a><br>muscle</p>
+            <p><a href="ske"> <img src="https://img.freepik.com/free-vector/floating-bone-dog-food-cartoon-vector-icon-illustration-animal-food-icon-concept-isolated-premium_138676-4762.jpg"></a><br>bones</p>
+            </div>
+
+            <h1>Height and weight</h1>
+            <div class="content">
+            <p><a href="heightf"> <img src="https://img.freepik.com/free-vector/people-healthy-food_24908-55199.jpg "></a><br>height increase food</p>
+            <p><a href="lossf"> <img src="https://img.freepik.com/free-vector/people-healthy-food_24908-55202.jpg "></a><br>weight loss food</p>
+            <p><a href="gainf"> <img src="https://img.freepik.com/free-vector/people-healthy-food_24908-55174.jpg"></a><br>weight gain food</p>
+            </div>
+
+            <h1>Health tips</h1>
+            <div class="content">
+            <p><a href="healthtips"> <img src="https://img.freepik.com/free-vector/hand-drawn-people-eating-collection_23-2149216027.jpg"></a><br>healthy eating tips</p>
+            <p><a href="exercise"><img src=" https://img.freepik.com/premium-vector/online-yoga-class_619130-757.jpg"></a><br>exercise for healthy body</p>
+            </div>
+
+            <h1>Hair care</h1>
+            <div class="content">
+            <p><a href="dandruff"> <img src="https://img.freepik.com/premium-vector/itchy-head-dandruff-concept-stressed-irritated-man-standing-having-itchy-scalp-feeling_140689-4051.jpg"></a><br>dandruff</p>
+            <p><a href="hairfall"> <img src="https://img.freepik.com/free-vector/flat-hand-drawn-hair-loss-illustration-with-angry-woman_23-2148843589.jpg"></a><br>hair fall</p>
+            <p><a href="dryhair"> <img src=" https://img.freepik.com/free-vector/flat-hand-drawn-hair-loss-illustration_23-2148871652.jpg "></a><br>dry hair</p>
+            <p><a href="oilyscalp"> <img src="https://img.freepik.com/free-vector/flat-hand-drawn-hair-loss-concept_23-2148831015.jpg "></a><br>oily scalp</p>
+            <p><a href="splitends"> <img src="https://img.freepik.com/premium-vector/woman-before-after-good-quality-hair-salon-treatment-girl-with-split-ends-get-saloon-keratin-procedure-smoothing-rejuvenation-procedure-beauty-cosmetic-vector-illustration_160308-4170.jpg"></a><br>split ends</p>
+            <p><a href="frizzy"> <img src="https://img.freepik.com/premium-vector/flat-hand-drawn-hair-loss-concept-illustrated_23-2148829853.jpg "></a><br>frizzy hair</p>
+            <p><a href="greying"> <img src="https://img.freepik.com/premium-vector/grey-hair-colored-hair-concept-frustrated-stressed-woman-seeing-grey-hair-head-happy-one-with-colored-hair-looking-mirror-vector-illustration_140689-3894.jpg "></a><br>premature greying</p>
+            <p><a href="hffood"> <img src="https://img.freepik.com/free-vector/people-healthy-food_24908-55198.jpg"></a><br>food for healthy hair</p>
+            </div>
+            <h1>Face care</h1>
+            <div class="content">
+            <p><a href="oilyskin"> <img src="https://img.freepik.com/premium-vector/oily-skin-face_99326-111.jpg"></a><br>oily skin</p>
+            <p><a href="dryskin"> <img src="https://img.freepik.com/premium-vector/girl-holding-magnifying-glass-with-skin-problems-dry-skin-skincare-facial-treatment-beauty_550427-161.jpg"></a><br>dry skin</p>
+            <p><a href="combination"> <img src="https://thumbs.dreamstime.com/b/beauty-woman-combination-skin-type-female-avatar-vector-flat-problem-girl-179290075.jpg "></a><br>combination skin</p>
+            <p><a href="sensitive"> <img src="https://img.freepik.com/premium-vector/sensitive-skin-face_99326-112.jpg "></a><br>sensitive skin</p>
+            <p><a href="circles"> <img src="https://img.freepik.com/premium-vector/girl-holding-magnifying-glass-with-skin-problems-dark-circles-skincare-facial-treatment-beauty_550427-160.jpg "></a><br>dark circles</p>
+            <p><a href="spots"> <img src=" https://thumbs.dreamstime.com/b/acne-black-spots-infographic-acne-black-spots-infographic-vector-modern-flat-style-cartoon-character-illustration-isolated-99463664.jpg"></a><br>dark spots</p>
+            <p><a href="acne"> <img src="https://img.freepik.com/premium-vector/girl-holding-magnifying-glass-with-skin-problems-acne-pimples-skincare-facial-treatment-beauty_550427-158.jpg"></a><br>acne</p>
+            <p><a href="pores"> <img src="https://img.freepik.com/premium-vector/facial-skin-problems-with-large-pores_99326-264.jpg "></a><br>large pores</p>
+            <p><a href="wrinkles"> <img src="https://img.freepik.com/premium-vector/african-girl-holding-magnifying-glass-with-skin-problems-wrinkles-skincare-facial-treatment-beauty_550427-157.jpg"></a><br>wrinkles</p>
+            <p><a href="antiage"> <img src="https://img.freepik.com/free-vector/young-female-face-lifting-antiaging-portrait-beautiful-woman-surgery-clinic_40876-2612.jpg "></a><br>anti-ageing</p>
+            <p><a href="lips"> <img src="https://img.freepik.com/free-vector/coloured-mouths-collection_1333-17.jpg "></a><br>lip care</p>
+            </div>
+
+            <h1>Body care</h1>
+            <div class="content">
+            <p><a href="underarms"> <img src="https://thumbs.dreamstime.com/b/underarm-deodorant-woman-take-care-her-underarms-to-prevent-unpleasant-odor-72412146.jpg "></a><br>underarm care</p>
+            <p><a href="hands"> <img src="https://img.freepik.com/premium-photo/beautiful-hands-isolated-applying-cream-massaging-with-clipping-path_43636-152.jpg "></a><br>hand care</p>
+            <p><a href="foot"> <img src="https://img.freepik.com/premium-photo/beautiful-women-feet-isolated_93675-339.jpg "></a><br>foot care</p>
+            <p><a href="bodytips"><img src="https://img.freepik.com/premium-vector/woman-hugging-herself-with-hearts-love-yourself-love-your-body-concept-vector-illustration_159609-7.jpg "></a><br>body care tips</p>
+            </div>
+
+            <h1>Female health</h1>
+            <div class="content">
+            <p><a href="fhtips"> <img src="https://img.freepik.com/premium-vector/woman-eats-vegetable-salad-healthy-food-cartoon-design_530689-1145.jpg "></a><br>food during periods</p>
+            </div>
+
+            <h1>Tips for skin and hair</h1>
+            <div class="content">
+              <p><a href="hair"> <img src="https://img.freepik.com/premium-vector/young-woman-makes-herself-scalp-massage-head-vector-illustration_650087-529.jpg "></a><br>hair care routine</p>
+              <p><a href="mornskin"> <img src="https://img.freepik.com/free-photo/sunrise-dal-lake-kashmir-india_1232-4766.jpg"></a><br>morning skin care routine</p>
+              <p><a href="nightskin"> <img src="https://img.freepik.com/premium-vector/mountains-forest-landscape-with-beautiful-night-sky-stars_16058-112.jpg "></a><br>night skin care routine</p>
+              <p><a href="winter"> <img src="https://img.freepik.com/free-vector/flat-design-winter-background_23-2148715242.jpg "></a><br>winter skin care routine</p>
+            </div>
+
+            <h1>Different countries skin care remedies</h1>
+            <div class="content">
+            <p><a href="cou"><img src="https://img.freepik.com/premium-vector/people-doing-morning-skincare-washing-shaving-applying-lotion_540284-901.jpg "></a><br>skin care remedies</p>
+            </div>
+        </body>
+</html>
